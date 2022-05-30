@@ -1,0 +1,16 @@
+.texto {
+  /*caso o dusplay for INLINE, muitos atributos não são aplicados.*/
+  box-sizing: border-box;
+  background: red;
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  max-height: 500px;
+  min-width: 0;
+  min-height: 100px;
+  /*overflow: como o conteúdo que acabou saindo "fora" da div irá se comportar*/
+  overflow: auto;
+  margin: 0 auto 50px auto;
+  padding: 50px;
+  border: 5px solid black;
+}

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading:hover {
+  background: red;
+}
+
+.heading {
+  transition: all 1s ease-in-out
+}
+
+a {
+  color: darkorange;
+}
+
+a:link {
+  color: deeppink;
+}
+
+a:visited {
+  color: firebrick;
+}
+
+a:hover {
+  background: darkslateblue;
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  background: darkslategray;
+  color: white;
+  text-decoration: none;
+}
+
+input:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  outline: none;
+  border: 1px solid black;
+}
+
+input:disabled {
+  background: rebeccapurple;
+  cursor: not-allowed;
+}
+
+.test:checked {
+  width: 50px;
+  height: 50px;
+}
+
+.test:checked + p {
+  background: red
+}
+
+.pai .lista li {
+  background: red;
+}

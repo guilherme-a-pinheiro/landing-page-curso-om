@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+div {
+  height: 100vh;
+}
+
+.pai {
+  width: 100%;
+  background: darkkhaki;
+}
+
+p {
+  /*relativo ao tamanho do elemento pai de todos*/
+  font-size: 3rem;
+}
+
+.color-one {
+  background: darkgoldenrod
+}
+
+.color-two {
+  background: #919191
+}
+
+a {
+  font-size: 3rem;
+}
+
+.pai > div {
+  width: 50%;
+  height: 50rem;
+  background: blue;
+}
+

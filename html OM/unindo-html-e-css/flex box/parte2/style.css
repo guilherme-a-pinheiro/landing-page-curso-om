@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex; /* block */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: yellow;
+  height: 100vh;
+}
+
+.flex-item {
+  background: red;
+  color: white;
+  width: 100%;
+}
+
+.flex-item:nth-child(3) {
+  align-self: flex-end;
+}
+
+.flex-item:nth-child(4) {
+  align-self: center;
+}
+
+.flex-item:nth-child(2) {
+  align-self: stretch;
+  order: -2
+}
+

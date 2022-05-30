@@ -1,0 +1,17 @@
+/*Para usar esse seletor, todos os itens tem de ser irmãos hierarquicamente*/
+
+ul li:nth-child(even) { /*Caso queira selecionar os pares even; impar: odd;*/
+  background: rebeccapurple;
+}
+
+ul li:nth-child(odd) {
+  background: darkgrey
+}
+
+ul li:nth-child(3n) { /*pulando de três em três*/
+  background: darkolivegreen
+}
+
+ul li:nth-child(3n+5) {
+  background: red;
+}

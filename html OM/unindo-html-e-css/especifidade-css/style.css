@@ -1,0 +1,45 @@
+/*Ordem de prioridade de especificidade:
+ID  ;Classes > Atributos > pseudo-classes; Elementos e pseudo-elementos*/
+
+/*Specifity 1 0 0*/
+
+#p {
+  background: red;
+}
+
+/*Specifity 0 1 0*/
+
+.p {
+  background: yellow;
+}
+
+/*Specifity 1 1 0*/
+
+#p.p {
+  background: yellow;
+}
+
+/*Specifity 1 0 1*/
+
+p#p {
+  background: red;
+}
+
+
+/*Specifity 1 1 1*/
+
+p#p.p {
+  background: red;
+}
+
+/*Specifity 2 1 2*/
+
+body#b p#p.p {
+  background: purple;
+}
+
+/*!Important sobressai todos os elementos*/
+
+p {
+  background: darkgrey !important;
+}

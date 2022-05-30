@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body div.aula-01 section.teste {
+  color: red;
+}
+
+body div.aula-01 div.primeira-parte {
+  color: purple;
+}
+
+body div .color-blue {
+  color: blue;
+}
+
+body div .main-content {
+  font-style: italic;
+}
+
+div {
+  color: initial;
+  margin-left: 20px;
+}
+
+.pai > .filha > .filha{ /*só vai selecionar o que for filha direta do primeiro item chamado.
+  CHILD SELECTOR*/
+  color: blue;
+}
